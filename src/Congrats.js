@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 
 /**
  * Functional react component for congratulatory message.
@@ -20,3 +21,4 @@ export default props => {
     return <div data-test="component-congrats" />;
   }
 };
+
